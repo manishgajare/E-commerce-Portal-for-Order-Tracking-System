@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-configuration PUBLIC
+		"-//Hibernate/Hibernate Configuration DTD 3.0//EN"
+		"http://hibernate.sourceforge.net/hibernate-configuration-3.0.dtd">
+<hibernate-configuration>
+    <session-factory>
+        <property name="hibernate.connection.driver_class">com.mysql.jdbc.Driver</property>
+        <property name="hibernate.connection.password">qwerty123$</property>
+        <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/webtools</property>
+        <property name="hibernate.connection.username">root</property>
+        <property name="hibernate.dialect">org.hibernate.dialect.MySQLDialect</property>
+        <property name="show_sql">true</property>
+        <property name="hibernate.hbm2ddl.auto">update</property>
+        
+        
+        <mapping class="com.me.spring.pojo.OrderItem"/>
+        <mapping class="com.me.spring.pojo.OrderCatalog"/>
+        <mapping class="com.me.spring.pojo.SubCategory"/>
+        <mapping class="com.me.spring.pojo.Category"/>
+        <mapping class="com.me.spring.pojo.ZipcodePosition"/>
+        <mapping class="com.me.spring.pojo.Inventory"/>
+        <mapping class="com.me.spring.pojo.Customer"/>
+        <mapping class="com.me.spring.pojo.Employee"/>
+        <mapping class="com.me.spring.pojo.Supplier"/>
+        <mapping class="com.me.spring.pojo.Zipcode"/>
+        <mapping class="com.me.spring.pojo.City"/> 
+        <mapping class="com.me.spring.pojo.State"/>
+		<mapping class="com.me.spring.pojo.Country"/>
+		<mapping class="com.me.spring.pojo.EcoSystem"/>
+	
+		
+		
+    </session-factory>
+</hibernate-configuration>

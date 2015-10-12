@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+	xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+	
+	<!-- Root Context: defines shared resources visible to all other web components -->
+		
+		
+		<!-- 
+		<bean id="CustomerDAO" class="com.me.spring.DAO.CustomerDAO"></bean>
+		<bean id="EcoSystemDAO" class="com.me.spring.DAO.EcoSystemDAO"></bean>
+		<bean id="EmployeeDAO" class="com.me.spring.DAO.EmployeeDAO"></bean>
+		<bean id="ZipcodePositionDAO" class="com.me.spring.DAO.ZipcodePositionDAO"></bean>
+		 -->
+		
+		
+		
+		
+</beans>
